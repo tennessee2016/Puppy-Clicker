@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>PuppyClicker</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <h1 id="heading">Puppy Clicker</h1>
+    <p>Click the puppy and buy upgrades to gain points</p>
+    <input alt="no image" id="puppyButton" onclick="increasePoints()" type="image" src="https://upload.wikimedia.org/wikipedia/commons/c/cf/Keeshond_Sibirian_Husky_crossbreed_puppy.jpg">
+    <p id="pointsText">Points: 0</p>
+    <p>SHOP</p>
+    <button id="baconBtn" onclick="buyUpgrade(25, 1)">Bacon 25 Points (Intices Your Dog To Produce 2 Points per Click)</button>
+    <button id="boneBtn" onclick="buyUpgrade(100, 2)">Bone 100 Points (Intices Your Dog To Produce 4 Points per Click)</button>
+    <button id="steroidsBtn" onclick="buyUpgrade(500, 3)">Steroids 500 Points (Intices Your Dog To Produce 10 Points per Click)</button>
+    <button id="dogeBtn" onclick="buyUpgrade(2500, 4)">Doge 2500 Points (Intices Your Dog To Produce 1000 Points per Click)</button>
+    <button id="winBtn" onclick="winGame()">Win Game 1000000 Points (You Win)</button>
+  <script src="script.js"></script>
+</body>
+</html>
